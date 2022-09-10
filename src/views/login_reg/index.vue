@@ -9,7 +9,7 @@
   </div>
 </template>
 <script>
-import comSign from '@/components/sign.vue'
+import comSign from '@/components/login_reg/sign.vue'
 
 export default {
   components: {

@@ -9,10 +9,43 @@ import 'amfe-flexible'
 import '@/assets/css/global.less'
 
 // 全局注册vant组件（按需引入）
-import { Form, Field, Button } from 'vant'
+import {
+  Form,
+  Field,
+  Button,
+  NavBar,
+  Icon,
+  Image as VanImage,
+  Uploader,
+  Grid,
+  GridItem,
+  Cell,
+  CellGroup,
+  Divider,
+  Area,
+  RadioGroup,
+  Radio,
+  Popup,
+  Picker
+} from 'vant'
+
 Vue.use(Form)
 Vue.use(Field)
 Vue.use(Button)
+Vue.use(NavBar)
+Vue.use(Icon)
+Vue.use(VanImage)
+Vue.use(Uploader)
+Vue.use(Grid)
+Vue.use(GridItem)
+Vue.use(Cell)
+Vue.use(CellGroup)
+Vue.use(Divider)
+Vue.use(Area)
+Vue.use(Radio)
+Vue.use(RadioGroup)
+Vue.use(Popup)
+Vue.use(Picker)
 
 Vue.config.productionTip = false
 

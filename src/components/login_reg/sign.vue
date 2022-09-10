@@ -15,15 +15,15 @@
         <van-field
           v-model="username"
           name="用户名"
-          left-icon="user-o"
-          placeholder="phone"
+          :left-icon="this.login_regStatus ? 'friends' : 'phone'"
+          :placeholder="this.login_regStatus ? 'phone or email' : 'phone'"
           :rules="[{ required: true, message: '请填写用户名' }]"
         />
         <van-field
           v-model="password"
           type="password"
           name="密码"
-          left-icon="goods-collect-o"
+          left-icon="lock"
           placeholder="password"
           :rules="[{ required: true, message: '请填写密码' }]"
         />
