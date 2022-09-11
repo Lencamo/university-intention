@@ -38,6 +38,18 @@ const routes = [
   {
     path: '/home',
     component: () => import('@/views/home/index.vue')
+  },
+  {
+    path: '/alFill',
+    component: () => import('@/components/home/AI_fill.vue')
+  },
+  {
+    path: '/countdown',
+    component: () => import('@/components/home/countdown.vue')
+  },
+  {
+    path: '/lines',
+    component: () => import('@/components/home/lines.vue')
   }
 ]
 

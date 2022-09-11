@@ -26,7 +26,13 @@ import {
   RadioGroup,
   Radio,
   Popup,
-  Picker
+  Picker,
+  Search,
+  Swipe,
+  SwipeItem,
+  NoticeBar,
+  CountDown,
+  Calendar
 } from 'vant'
 
 Vue.use(Form)
@@ -46,6 +52,12 @@ Vue.use(Radio)
 Vue.use(RadioGroup)
 Vue.use(Popup)
 Vue.use(Picker)
+Vue.use(Search)
+Vue.use(Swipe)
+Vue.use(SwipeItem)
+Vue.use(NoticeBar)
+Vue.use(CountDown)
+Vue.use(Calendar)
 
 Vue.config.productionTip = false
 

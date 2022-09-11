@@ -1,8 +1,8 @@
 <template>
-  <div class="examinee-container">
+  <div class="ai-container">
     <!-- 头部标题区域 -->
     <div class="title-box">
-      <van-nav-bar title="考生信息" left-arrow></van-nav-bar>
+      <van-nav-bar title="AI填报" left-arrow></van-nav-bar>
     </div>
     <div class="content-box" style="margin-top: 20px">
       <!-- 文理科选择 -->
@@ -66,7 +66,7 @@
       </div>
     </div>
     <div class="commit-box">
-      <van-button type="danger">提交</van-button>
+      <van-button type="danger">智能填报</van-button>
     </div>
   </div>
 </template>
