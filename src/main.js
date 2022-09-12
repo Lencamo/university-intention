@@ -32,7 +32,11 @@ import {
   SwipeItem,
   NoticeBar,
   CountDown,
-  Calendar
+  Calendar,
+  DropdownMenu,
+  DropdownItem,
+  Checkbox,
+  CheckboxGroup
 } from 'vant'
 
 Vue.use(Form)
@@ -58,6 +62,10 @@ Vue.use(SwipeItem)
 Vue.use(NoticeBar)
 Vue.use(CountDown)
 Vue.use(Calendar)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
 
 Vue.config.productionTip = false
 

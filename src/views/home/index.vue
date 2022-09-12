@@ -2,10 +2,7 @@
   <div class="home-container">
     <!-- 顶部搜索 -->
     <div class="search-box">
-      <div class="left">
-        <span class="area">四川</span>
-        <van-icon name="location-o" />
-      </div>
+      <div class="left"></div>
       <div class="center">
         <van-search
           v-model="searchValue"
@@ -14,7 +11,16 @@
         >
         </van-search>
       </div>
-      <div class="right"></div>
+      <div class="right">
+        <van-image
+          class="titleImg"
+          round
+          fit="cover"
+          width="1rem"
+          height="1rem"
+          src="https://img01.yzcdn.cn/vant/cat.jpeg"
+        />
+      </div>
     </div>
     <!-- 轮播图区域 -->
     <div class="swipe-box" style="">
@@ -71,21 +77,21 @@ export default {
 .home-container {
   background-color: #f4f4fa;
   .search-box {
-    .left {
-      float: left;
+    position: relative;
+    background-color: #7373ec;
+    .right .titleImg {
+      position: absolute;
+      top: 10px;
+      right: 2%;
       width: 20%;
       height: 54px;
       font-size: 15px;
       line-height: 54px;
       text-align: center;
-      // background-color: #dc93b8;
-      .area {
-        display: inline-block;
-        margin: 0px 10px;
-      }
     }
     .center {
       background-color: #7373ec;
+      width: 88%;
       .van-search {
         // background-color: #9393dc;
         background-color: #7373ec;

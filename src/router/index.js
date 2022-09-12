@@ -50,6 +50,15 @@ const routes = [
   {
     path: '/lines',
     component: () => import('@/components/home/lines.vue')
+  },
+  // '院校'标签栏
+  {
+    path: '/college',
+    component: () => import('@/views/colleges/index.vue')
+  },
+  {
+    path: '/item',
+    component: () => import('@/components/colleges/collegesItem.vue')
   }
 ]
 
